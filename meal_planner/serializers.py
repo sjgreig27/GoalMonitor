@@ -35,6 +35,6 @@ class MealSerializer(serializers.HyperlinkedModelSerializer):
 
     class Meta:
         model = Meal
-        fields = ('recipe', 'recipe_id', 'timestamp', 'purchased_ingredients')
+        fields = ('recipe', 'recipe_id', 'timestamp', 'purchased_ingredients', 'user')
         read_only_fields = ('timestamp', 'recipe')
 

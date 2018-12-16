@@ -15,4 +15,4 @@ class MeasurementSerializer(serializers.HyperlinkedModelSerializer):
 
     class Meta:
         model = Measurement
-        fields = ('measurement', 'measurement_type', 'quantity', 'timestamp')
+        fields = ('measurement', 'measurement_type', 'quantity', 'timestamp', 'user')

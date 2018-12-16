@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'monitor_app',
     'quit_smoking',
     'health_monitor',
-    'meal_planner'
+    'meal_planner',
+    'workout_planner'
 ]
 
 MIDDLEWARE = [

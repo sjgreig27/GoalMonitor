@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 # Create your models here.
 
@@ -15,4 +16,5 @@ class Measurement(models.Model):
     measurement = models.ForeignKey(MeasurementType, on_delete=models.CASCADE)
     quantity = models.DecimalField(decimal_places=2, max_digits=6)
     timestamp = models.DateTimeField(auto_now_add=True)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
 
