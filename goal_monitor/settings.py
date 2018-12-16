@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'monitor_app',
     'quit_smoking',
-    'health_monitor'
+    'health_monitor',
+    'meal_planner'
 ]
 
 MIDDLEWARE = [
