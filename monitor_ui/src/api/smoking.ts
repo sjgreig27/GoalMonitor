@@ -1,5 +1,5 @@
 import {Cigarette, CigarettePacket, Vapour} from "../types/smoking";
-import {get, post, request, API_ROOT} from '../utils/ApiUtils';
+import {get, API_ROOT} from '../utils/ApiUtils';
 
 const SMOKING_API_ROOT = API_ROOT + 'smoking/';
 

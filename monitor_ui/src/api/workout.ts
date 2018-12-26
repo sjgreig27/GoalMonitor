@@ -1,5 +1,5 @@
 import {Lift, WorkoutPlan, Workout, PlannedLift, LiftRecord, Set} from "../types/workout";
-import {get, post, request, API_ROOT} from '../utils/ApiUtils';
+import {get, API_ROOT} from '../utils/ApiUtils';
 
 const WORKOUT_API_ROOT = API_ROOT + 'workout/';
 
